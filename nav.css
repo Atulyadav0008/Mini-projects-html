@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav{
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+   font-size: 26px;
+   font-weight: bold;
+   color: red;
+}
+.link a{
+    color: yellow;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.search input[type="text"]{
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+
+}
+a:hover{
+    color: coral;
+    background-color: white;
+
+}
